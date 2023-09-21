@@ -17,15 +17,16 @@ html,
     padding: 0.5rem;
     background-color: #1a0035;
     margin: auto;
-    width: 20rem;
+    width: 30vw;
     height: auto;
     text-align: center;
     align-items: center;
     border-radius: 15px;
+    box-sizing: border-box;
     box-shadow: 5px 5px rgb(48, 48, 48);
 }
 .card-img{
-    width: 12rem;
+    width: 20vw;
     height: auto;
     margin: 0;
 }
