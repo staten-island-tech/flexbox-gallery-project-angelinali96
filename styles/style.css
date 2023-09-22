@@ -5,6 +5,8 @@ html,
     box-sizing: border-box;
     padding: 0;
     font-family: "Inconsolata", monospace;
+}
+body{
     background-color: black;
     color: azure;
 }
@@ -17,7 +19,7 @@ html,
     padding: 0.5rem;
     background-color: #1a0035;
     margin: auto;
-    width: 30vw;
+    width: 22%;
     height: auto;
     text-align: center;
     align-items: center;
@@ -26,16 +28,16 @@ html,
     box-shadow: 5px 5px rgb(48, 48, 48);
 }
 .card-img{
-    width: 20vw;
+    width: 18vw;
     height: auto;
     margin: 0;
 }
 .card-title{
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: #1a0035;
 }
 .card-desc{
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: #1a0035;
 }
 a{
