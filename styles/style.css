@@ -25,7 +25,7 @@ body{
     align-items: center;
     border-radius: 15px;
     box-sizing: border-box;
-    box-shadow: 5px 5px rgb(48, 48, 48);
+    box-shadow: 5px 5px 0px rgba(48, 48, 48, 0.5);
 }
 .card-img{
     width: 18vw;
@@ -51,4 +51,16 @@ h1{
 h5{
     font-size: 0.8rem;
     text-align: center;
+}
+.card:hover {
+    transition: all 0.6s;
+    transform: scale(1.1);
+  }
+  img[alt="shen ze chuan"]:hover{
+    transition:all 0.6s;
+    transform: translateX(20px);
+}
+img[alt="xiao chi ye"]:hover{
+    transition:all 0.6s;
+    transform: translateX(-20px);
 }
