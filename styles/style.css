@@ -32,6 +32,9 @@ body{
     height: auto;
     margin: 0;
 }
+.card-img:hover{
+    transition: all 0.6s;
+}
 .card-title{
     font-size: 1rem;
     background-color: #1a0035;
@@ -56,11 +59,20 @@ h5{
     transition: all 0.6s;
     transform: scale(1.1);
   }
-  img[alt="shen ze chuan"]:hover{
-    transition:all 0.6s;
-    transform: translateX(20px);
+img[alt="shen ze chuan"]:hover,
+img[alt="qiao tian ya"]:hover,
+img[alt="qi zhu yin"]:hover{
+    transform: translateX(20px) scale(1.2);
 }
-img[alt="xiao chi ye"]:hover{
-    transition:all 0.6s;
-    transform: translateX(-20px);
+img[alt="xiao chi ye"]:hover,
+img[alt="yao wen yu"]:hover,
+img[alt="hua xiang yi"]:hover{
+    transform: translateX(-20px) scale(1.2);
+}
+img[alt="li jian ting"]:hover,
+img[alt="li jian heng"]:hover{
+    transform: rotate(360deg) scale(1.2);
+}
+img[alt="xue xiu zhuo"]:hover{
+    transform: rotateY(360deg);
 }
