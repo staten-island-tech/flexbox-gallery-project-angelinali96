@@ -50,6 +50,7 @@ h1{
     font-size: 3rem;
     display: block;
     text-align: center;
+    animation: title 0.6s ease-in-out 0s infinite alternate both;
 }
 h5{
     font-size: 0.8rem;
@@ -74,5 +75,18 @@ img[alt="li jian heng"]:hover{
     transform: rotate(360deg) scale(1.2);
 }
 img[alt="xue xiu zhuo"]:hover{
-    transform: rotateY(360deg);
+    transform: rotateY(360deg) scale(1.2);
+}
+img[alt="duo er lan"]:hover{
+    transform: rotate3d(1,1,1,360deg) scale(1.5);
+}
+img[alt="fei sheng"]:hover{
+    transform: skew(20deg,-20deg) scale(1.5);
+}
+img[alt="xiao fang xu"]:hover{
+    transform: translate(-100px, -200px) scale(1.5);
+}
+@keyframes title{
+    from {transform: skew(10deg,10deg);}
+    to {transform: skew(-10deg,-10deg);}
 }
