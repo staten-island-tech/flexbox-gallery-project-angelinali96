@@ -18,7 +18,7 @@ body{
 .card{
     padding: 0.5rem;
     background-color: #1a0035;
-    margin: auto;
+    margin: 0.5rem 0;
     width: 22%;
     height: auto;
     text-align: center;
@@ -27,10 +27,20 @@ body{
     box-sizing: border-box;
     box-shadow: 5px 5px 0px rgba(48, 48, 48, 0.5);
 }
+.card-img{
+    width: 18vw;
+    height: auto;
+    margin: 0;
+}
 @media screen and (max-width:768px){
     .card{
         width: 28%;
         height: auto;
+    }
+    .card-img{
+        width: 20vw;
+        height: auto;
+        margin: 0;
     }
 }
 @media screen and (max-width:450px){
@@ -38,17 +48,22 @@ body{
         width: 34%;
         height: auto;
     }
+    .card-img{
+        width: 25vw;
+        height: auto;
+        margin: 0;
+    }
 }
 @media screen and (max-width:280px){
     .card{
         width: 55%;
         height: auto;
     }
-}
-.card-img{
-    width: 18vw;
-    height: auto;
-    margin: 0;
+    .card-img{
+        width: 40vw;
+        height: auto;
+        margin: 0;
+    }
 }
 .card-img:hover{
     transition: all 0.6s;
